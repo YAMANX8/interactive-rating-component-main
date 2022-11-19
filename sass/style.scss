@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+    box-sizing: border-box;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+}
+// section block
+.rating-page {
+    background: hsl(216, 12%, 8%);
+    place-content: center;
+    height: 100vh;
+    display: grid;
+}
+.card {
+    border-radius: 10px;
+    padding: 0 20px;
+    width: 335px;
+    //modifier
+    &_theme_dark {
+        background-color: hsl(213, 19%, 18%);
+        color: white;
+    }
+    &__bubble {
+        background: hsl(216, 12%, 54%);
+        text-align: center;
+        border-radius: 50%;
+        padding: 10px;
+        width: 40px;
+
+        &:first-child {
+            vertical-align: middle;
+        }
+    }
+    &__heading {
+        font-weight: 700;
+    }
+    &__para {
+        color: hsl(216, 12%, 54%);
+        line-height: 1.5;
+    }
+}
+.rate-state {
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    padding: 20px 0;
+    gap: 20px;
+    &__btns {
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+    }
+    &__sub-btn {
+        letter-spacing: 1px;
+        border-radius: 25px;
+        padding: 15px;
+        border: none;
+        width: 100%;
+    }
+}
+.btn {
+    cursor: pointer;
+    &_theme_orange {
+        background: hsl(25, 97%, 53%);
+        color: white;
+        &:active {
+            color: hsl(25, 97%, 53%);
+            background: white;
+        }
+    }
+    &_theme_dark {
+        &:hover {
+            background: hsl(217, 12%, 63%);
+            color: white;
+        }
+        &:active {
+            background: hsl(25, 97%, 53%);
+            color: white;
+        }
+    }
+    &_active {
+        background: hsl(25, 97%, 53%);
+        color: white;
+    }
+}
+.hide {
+    display: none !important;
+}
+//thank state
+.thank-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 40px 0;
+    &__img {
+        display: block;
+    }
+    &__proccess {
+        background: hsl(216, 12%, 54%);
+        padding: 10px;
+        color: hsl(25deg, 97%, 53%);
+        border-radius: 40px;
+    }
+}
