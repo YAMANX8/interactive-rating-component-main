@@ -14,8 +14,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Continued development](#continued-development)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -46,15 +44,18 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 - I've learned to work with layout
 - I've learned also how to work with specificity
+- I've learned how to work with BEM Methodology
+- I've practice javascript
 
 ### Continued development
 
-- I need to be focused on how to structure the text in html, like how to deside to use 'span' element or do I need to 'p' element
-- I need to be focused on how name classes
-- I need to be focused on where to put the bubble images, like put them inside the card and position them depending on it or put them in the background and position them depending on it. and the issue of using them in the 'background' property or use 'img' tag in html 
+- I need more practing javascript
+- and BEM Methodology
 
 ## Acknowledgments
 
 - w3schools
 - youtube
 - coursera
+- roadmap.sh
+- codepen
